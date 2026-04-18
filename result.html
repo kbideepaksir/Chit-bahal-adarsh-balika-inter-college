@@ -105,7 +105,7 @@ function getResult() {
     let test = document.getElementById("test").value;
 
     // 🔴 YAHAN APNA GOOGLE SCRIPT URL DALO
-    let url = "PASTE_YOUR_WEB_APP_URL_HERE?roll=" + roll + "&test=" + test;
+    let url = "https://script.google.com/macros/s/AKfycbxo5XrUqM1wky1YhCqKXpVFz6QOw-e2SUSygRGU9aDTD-xhMrfWkTDVx7nN1dVgrABMYQ/exec?roll=" + roll + "&test=" + test;
 
     fetch(url)
     .then(res => res.json())
