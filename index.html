@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>School Result Portal</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+}
+
+/* HEADER */
+.header {
+    background: linear-gradient(to right, #002147, #004080);
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.header p {
+    margin: 5px 0;
+}
+
+/* CONTAINER */
+.container {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* CARD DESIGN */
+.card {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* SECTION TITLE */
+.card h2 {
+    color: #002147;
+}
+
+/* RESULT BUTTON */
+.result-section {
+    text-align: center;
+}
+
+.result-btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    background: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.result-btn:hover {
+    background: #cc5200;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    background: #002147;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div class="header">
+    <h1>Chit Bahal Adarsh Balika Inter College</h1>
+    <p>Puranpur, Ambedkar Nagar</p>
+    <p><b>Quality Education & Regular Test System</b></p>
+</div>
+
+<div class="container">
+
+    <!-- ABOUT TEACHER -->
+    <div class="card">
+        <h2>About Teacher</h2>
+        <p><b>Deepak Sir</b></p>
+        <p>History Teacher (Class 11th & 12th)</p>
+        <p>
+            सरल भाषा में इतिहास पढ़ाया जाता है और नियमित टेस्ट के माध्यम से 
+            छात्रों की तैयारी को मजबूत किया जाता है।
+        </p>
+        <p><b>Contact: 9369666347</b></p>
+    </div>
+
+    <!-- OUR SYSTEM -->
+    <div class="card">
+        <h2>Our System</h2>
+        <p>✔ Weekly & Monthly Test</p>
+        <p>✔ Performance Analysis</p>
+        <p>✔ कमजोर छात्रों पर विशेष ध्यान</p>
+        <p>✔ Online Result सुविधा</p>
+    </div>
+
+    <!-- MISSION -->
+    <div class="card">
+        <h2>Our Mission</h2>
+        <p>हमारा लक्ष्य हर छात्र को सफलता दिलाना है।</p>
+        <p><b>आपकी मेहनत + हमारा मार्गदर्शन = सफलता</b></p>
+    </div>
+
+    <!-- RESULT BUTTON -->
+    <div class="card result-section">
+        <h2>Check Your Test Result</h2>
+        <p>अपना रोल नंबर डालकर तुरंत रिजल्ट देखें</p>
+
+        <button class="result-btn" onclick="openResult()">
+            Check Result
+        </button>
+    </div>
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    <p>Deepak Sir | Chit Bahal Adarsh Balika Inter College</p>
+</div>
+
+<script>
+function openResult() {
+    window.location.href = "result.html";
+}
+</script>
+
+</body>
+</html>
